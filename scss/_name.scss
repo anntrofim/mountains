@@ -1,0 +1,68 @@
+/*!Insert copyright here. This will be included in the compiled and minified CSS*/
+
+//Custom SCSS
+
+// ------- DOESN'T WORK -------
+// $font-size-base:              1rem; // 16px
+
+// $h1-font-size:                $font-size-base * 1.87; // 30px
+// $h2-font-size:                $font-size-base * 1.25; // 20px
+
+// $blue:    #36aeea;
+
+// $blue:    #36a777;
+// $primary: $blue;
+// $theme-colors: (
+//   "primary": $primary
+// );
+
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge((
+  6: ($spacer * 5),
+  7: ($spacer * 7),
+  8: ($spacer * 9),
+  9: ($spacer * 11),
+  10: ($spacer * 18)
+), $spacers);
+
+
+
+
+//Required
+@import "../bootstrap-4.0.0/scss/functions";
+@import "../bootstrap-4.0.0/scss/variables";
+@import "../bootstrap-4.0.0/scss/mixins";
+//Extra
+@import "../bootstrap-4.0.0/scss/root";
+@import "../bootstrap-4.0.0/scss/reboot";
+@import "../bootstrap-4.0.0/scss/type";
+@import "../bootstrap-4.0.0/scss/images";
+@import "../bootstrap-4.0.0/scss/code";
+@import "../bootstrap-4.0.0/scss/grid";
+@import "../bootstrap-4.0.0/scss/tables";
+@import "../bootstrap-4.0.0/scss/forms";
+@import "../bootstrap-4.0.0/scss/buttons";
+@import "../bootstrap-4.0.0/scss/transitions";
+@import "../bootstrap-4.0.0/scss/dropdown";
+@import "../bootstrap-4.0.0/scss/button-group";
+@import "../bootstrap-4.0.0/scss/input-group";
+@import "../bootstrap-4.0.0/scss/custom-forms";
+@import "../bootstrap-4.0.0/scss/nav";
+@import "../bootstrap-4.0.0/scss/navbar";
+@import "../bootstrap-4.0.0/scss/card";
+@import "../bootstrap-4.0.0/scss/breadcrumb";
+@import "../bootstrap-4.0.0/scss/pagination";
+@import "../bootstrap-4.0.0/scss/badge";
+@import "../bootstrap-4.0.0/scss/jumbotron";
+@import "../bootstrap-4.0.0/scss/alert";
+@import "../bootstrap-4.0.0/scss/progress";
+@import "../bootstrap-4.0.0/scss/media";
+@import "../bootstrap-4.0.0/scss/list-group";
+@import "../bootstrap-4.0.0/scss/close";
+@import "../bootstrap-4.0.0/scss/modal";
+@import "../bootstrap-4.0.0/scss/tooltip";
+@import "../bootstrap-4.0.0/scss/popover";
+@import "../bootstrap-4.0.0/scss/carousel";
+@import "../bootstrap-4.0.0/scss/utilities";
+@import "../bootstrap-4.0.0/scss/print";

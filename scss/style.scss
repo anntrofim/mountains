@@ -1,0 +1,179 @@
+@import "_name.scss";
+@import "_a_variables.scss";
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bringin-font {
+	font-family: 'Bringin', cursive;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 35px;
+}
+
+.btn {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+	background-color: rgba(255,255,255, .5);
+
+}
+
+.header {
+	position: relative;
+	// background-image: url(../images/header-bg-original.jpg);
+	background-image: url(../images/header-bg-original-compressed.jpg);
+	@include bg;
+
+	color: $white;
+
+	&__brand {
+		font-size: 1.8em;
+	}
+
+	&__title {
+		line-height: .6;
+		font-size: 65px;
+		letter-spacing: .02em;
+	}
+
+	&__title-cursive {
+		font-size: 1.1em;
+	}
+
+	&__txt {
+		width: 45%;
+		font-size: 18px;
+	}
+
+	&__content-container {
+		position: relative;
+	}
+
+	&__content {
+		position: relative;
+		border: 3px solid $white;
+		border-top: none;
+		z-index: 2;
+	}
+
+	&__back-line {
+		border-top: 3px solid $white;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;
+	}
+
+	&__man-img {
+		position: absolute;
+		bottom: 0;
+		left: calc(100% / 2 - 60px);
+		z-index: 1;
+	}
+}
+
+.about {
+	background-image: url(../images/about-bg.png);
+	@include bg;
+
+	&__container {
+		position: relative;
+	}
+
+	&__img {
+		position: absolute;
+
+		&--small {
+			width: 45%;
+			z-index: 1;
+			bottom: -80px;
+			left: -20px;
+		}
+		&--big {
+			width: 85%;
+			top: -210px;
+			right: 0;
+		}
+	}
+}
+
+.offer {
+	background-image: url(../images/offer-bg.jpg);
+	@include bg;
+}
+
+.scheme {
+
+	&__circle {
+		width: 180px;
+		height: 180px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__icon {
+		width: 65%;
+		filter: drop-shadow(0 3px 3px $lightgray);
+	}
+}
+
+.travel {
+	background-image: url(../images/travel-bg.png);
+	@include bg;
+	// background-size: contain;
+
+
+	&__container {
+		background-image: url(../images/travel-bg-worldmap.png);
+		@include bg;
+		background-size: contain;
+	}
+
+	&__card {
+		overflow: hidden;
+	}
+
+	&__star {
+		width: 15px;
+	}
+
+	&__old-prise {
+		&:after {
+			content: "$";
+			text-decoration: line-through;
+		}
+	}
+
+	&__new-prise {
+		font-size: 20px;
+		&:before {
+			content: "$";
+			font-weight: bold;
+		}
+	}
+}
+
+.quote__photo {
+	overflow: hidden;
+}
+
+.title {
+	background-image: url(../icons/zigzag.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+
+	&--small {
+		background-position: top left;
+	}
+}

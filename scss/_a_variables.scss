@@ -1,0 +1,46 @@
+$lightgray: #ccc;
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700');
+
+@font-face {
+	font-family: 'Bringin';
+	src: url(../fonts/Bringin.otf);
+	// font-weight: normal;
+}
+
+@mixin bg{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+@mixin transition {
+	transition: all .3s ease;
+}
+
+@mixin btn {
+
+	@include transition;
+
+	&:hover {
+
+		@include transition;
+	}
+	&:focus {
+		outline:none;
+	}
+	&:active {
+
+	}
+}
+
+@mixin ref {
+	text-decoration: none;
+	@include transition;
+
+	&:hover {
+		text-decoration: none;
+		@include transition;
+	}
+}

@@ -1,0 +1,41 @@
+<svg id="fb.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.719" height="48.19" viewBox="0 0 54.719 48.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6788ce;
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        opacity: 0.4;
+      }
+
+      .cls-3 {
+        fill: #eef1f9;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="956.531" y="7252.63" width="14.469" height="23.37" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="3.536" dy="3.536" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-color="#020303" flood-opacity="0.15"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#fff"/>
+      <feComposite result="composite-2" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2" dy="1"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <path id="Base_icon" data-name="Base icon" class="cls-1" d="M941.28,7240.8h37.4a0.985,0.985,0,0,1,.985.99v37.46a0.985,0.985,0,0,1-.985.99h-37.4a0.985,0.985,0,0,1-.985-0.99v-37.46A0.985,0.985,0,0,1,941.28,7240.8Z" transform="translate(-940.281 -7240.81)"/>
+  <g id="Shadow_social" data-name="Shadow social">
+    <image id="Shadow" class="cls-2" x="17.719" y="12.19" width="16" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAVCAQAAAAzknw8AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBAoUIypzWOOWAAAA6ElEQVQoz2XQ3UoDMRRF4S/paCsU/EFE8EIFQbwRfAWf3TfxBUQF62SSeDFpZ1pP7s5aO2xOAMcePFp5825vFohePVsKrn34muOIEzcGg0H04uoQ31vIiiwJnpzPcXCnqooiG3BrPeGok5X2RuHSckrHGcxNWOsOcW5CkXEkjNXqLJl3QrWY8IQGWVFRhchera1QRyXusoNsaNmibJuvaDdLkjRTqJ0zQb9DaQ7pnEo2BslGL+ln5XSC74aTXt/yVVVZ+BRlPzZ+G05TOqBzIR6cpYzpsOsflHa/uv16i8cW2rKhwwn/V3+9Paw5otFLCgAAAABJRU5ErkJggg=="/>
+    <image id="Shadow-2" data-name="Shadow" x="17.719" y="12.19" width="37" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkCAMAAAA5HAOUAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABklBMVEVGaLD///9GaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLBGaLAAAADxSkZ7AAAAhXRSTlMAAAlAeocsA26hlpCDKhKamJGKiX0nSJWPgXYlAnufk415IgWLhH9ycGQeBnx3b2hZHAiFgn5rXVpQGIx0bWdgU0YUgHVpY1xWTklFOxFXQz05MQ5xWFFLPjMvKAt4al5STD84LiArZV9UIx8dKRsXFQRiLRoWEw8MEDIhGQ1KVToKBwE2gJAJmwAAAAFiS0dEhRXXaucAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBAoUIypzWOOWAAAB9UlEQVQ4y9XT+1vSUBgH8MO4HC9raoSFHCpYoGNAuCKFbkCal0WJoIaQF7oZIjEvCcWysf7wzgARx4b+2vllz/M+n/N+37OzAQAIo8lsAXrLoCwA4MDg0DB54wpFjYyO3bTesvVX44O371hJ+4Sjn0LOu/fum+1O14C7j6LtI8MPPF7T5BTj01esZwi38geCD5nQtK7iHo1ZH4ddk0+YmdlIVFeRT0mv/9nzFy9nY5F4Qk+Fza/8c8H51wuLS8v8m6SOMpHOwBTOextZfreSWk1rTz8XDmQwWlvf4N+nspu5vJZKTnzIbDHboZ1dvvAx+ynn+ExoqC+uzNbXvdA3jFIYFfdLUbZX8YF5Zi8U2+WNGB0UfeXvFUroUZHg4fbaThMd2Yq+45MfydMqVKta7BCjuDH102L7VaqfUKdinuCQ+puo/j7biBf+ZI9yxVI0QaWrEtFgablLIWVPvjCuxOXcpXqilsaNWEEQ4DkzyFBodpb+riidpqOJmpjnGjQ2CKE2kxGCrXzOsonj6k3E0hBCubnaqLOh4Xb46pWkKDVYpY/cUcqjowBdLldqosR1I7mFMOscRaCotKTEoXYUODfyRQH/cGKVaKHu+1ErgPDp4MUMl1h3gcZDqVCbXaogVV7rraoV6EX4hmSNqpYyXEMZ/nf1DyZEky7Lsog0AAAAAElFTkSuQmCC"/>
+  </g>
+  <path id="facebook" class="cls-3" d="M961.9,7255.08h1.507v-2.46H961.56v0.01c-2.891.1-3.485,1.73-3.536,3.44h-0.006v1.97h-1.476v2.47h1.476v7.88h2.952v-7.88h2.214l0.438-2.47H960.97v-1.78A1.1,1.1,0,0,1,961.9,7255.08Z" transform="translate(-940.281 -7240.81)"/>
+</svg>
