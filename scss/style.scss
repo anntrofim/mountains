@@ -25,14 +25,15 @@ h1, h2, h3, h4, h5, h6,
 
 .navbar {
 	background-color: rgba(255,255,255, .5);
-
 }
 
 .header {
 	position: relative;
 	// background-image: url(../images/header-bg-original.jpg);
-	background-image: url(../images/header-bg-original-compressed.jpg);
-	@include bg;
+	// background-image: url(../images/header-bg-original-compressed.jpg);
+	background-image: url(../images/header-bg-white-line.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 
 	color: $white;
 
@@ -57,6 +58,8 @@ h1, h2, h3, h4, h5, h6,
 
 	&__content-container {
 		position: relative;
+		padding-top: 187px;
+		// padding-top: 200px;
 	}
 
 	&__content {
@@ -67,11 +70,18 @@ h1, h2, h3, h4, h5, h6,
 	}
 
 	&__back-line {
-		border-top: 3px solid $white;
+		// border-top: 3px solid $white;
+		height: 3px;
+		background-image: linear-gradient(to right, $white 65%, transparent 65%, transparent 87%, $white 87%, $white 100%);
 		position: absolute;
 		top: 0;
 		left: 0;
 		z-index: 0;
+
+		 @media screen and (max-width: 1200px) {
+				// background-image: linear-gradient(to right, $white 65%, transparent 65%, transparent 87%, $white 87%, $white 100%);
+				background-image: linear-gradient(to right, $white 70%, transparent 70%, transparent 95%, $white 95%, $white 100%);
+		}
 	}
 
 	&__man-img {

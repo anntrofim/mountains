@@ -8,13 +8,7 @@
 // $h1-font-size:                $font-size-base * 1.87; // 30px
 // $h2-font-size:                $font-size-base * 1.25; // 20px
 
-// $blue:    #36aeea;
-
-// $blue:    #36a777;
-// $primary: $blue;
-// $theme-colors: (
-//   "primary": $primary
-// );
+$blue: #36aeea;
 
 $spacer: 1rem;
 $spacers: ();
@@ -25,7 +19,6 @@ $spacers: map-merge((
   9: ($spacer * 11),
   10: ($spacer * 18)
 ), $spacers);
-
 
 
 
